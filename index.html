@@ -2,25 +2,35 @@
 <html>
 <head>
 <style>
-  .videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
+ center {
+  text-align: center;
 }
-.videoWrapper iframe {
+
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 700px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin: 0 auto;
+}
+
+.videowrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  max-width: 700px;
+  max-height: 400px;
 }
   </style>
 </head>
 <body>
 
-<div class="videoWrapper">
-  <iframe width="560" height="349" src="https://drive.google.com/file/d/1QVbGNl-MBYnDWS9Gko0Zybm2Ry2bfs9F/preview" allowfullscreen></iframe>
-</div>
+<<center> <div class="videowrapper "><iframe width="560" height="315" src="https://drive.google.com/file/d/1QVbGNl-MBYnDWS9Gko0Zybm2Ry2bfs9F/preview" frameborder="0" allowfullscreen></iframe></a></div></center>
   
   </body>
 </html>
